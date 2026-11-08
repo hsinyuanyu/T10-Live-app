@@ -1,0 +1,91 @@
+{
+  "schema_revision": 1,
+  "transform_version": "1.0.0",
+  "dataset_revision": "25cea5fdf07ef420553666eb8e58b38949adbc48291ae24b6bc1c234af737d0d",
+  "is_sample": false,
+  "sources": [
+    {
+      "source_file": "bedrock_foundation_models.csv",
+      "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.csv",
+      "sha256": "d8aa334d1d474a596fb960d301ac963654cb1cc43fbae6ae179cb81b740c4ff7",
+      "byte_size": 3254027,
+      "download_timestamp": "2026-10-20T19:20:23.214009+00:00",
+      "metadata_rows": [
+        [
+          "FormatVersion",
+          "v1.0"
+        ],
+        [
+          "Disclaimer",
+          "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/"
+        ],
+        [
+          "Publication Date",
+          "2026-10-12T08:40:08Z"
+        ],
+        [
+          "Version",
+          "20261012084008"
+        ],
+        [
+          "OfferCode",
+          "AmazonBedrockFoundationModels"
+        ]
+      ],
+      "offer_version": "20261012084008",
+      "publication_date": "2026-10-12T08:40:08Z"
+    },
+    {
+      "source_file": "bedrock_service_all.csv",
+      "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.csv",
+      "sha256": "cd9e82b13ae7e9ec19f9597eb9fcb05303df7e38b25b1c98364b5ec2a4d07616",
+      "byte_size": 6127209,
+      "download_timestamp": "2026-10-20T19:20:23.528249+00:00",
+      "metadata_rows": [
+        [
+          "FormatVersion",
+          "v1.0"
+        ],
+        [
+          "Disclaimer",
+          "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/"
+        ],
+        [
+          "Publication Date",
+          "2026-10-16T21:08:06Z"
+        ],
+        [
+          "Version",
+          "20261016210806"
+        ],
+        [
+          "OfferCode",
+          "AmazonBedrock"
+        ]
+      ],
+      "offer_version": "20261016210806",
+      "publication_date": "2026-10-16T21:08:06Z"
+    }
+  ],
+  "outputs": {
+    "bedrock_prices.parquet": {
+      "path": "bedrock_prices.parquet",
+      "sha256": "60c4c36e1f3724a09c798dc46964de9380ce5def0cccdb25c530e2cadce1a873"
+    },
+    "quarantine.parquet": {
+      "path": "quarantine.parquet",
+      "sha256": "18e779124e5424ee4a4e71a55c849987a5c98202bade4b602987acb20300b50c"
+    },
+    "provenance.json": {
+      "path": "provenance.json",
+      "sha256": "faf0dbcf638d5f954e2ad1d51f57599b2da1e087cec8e25a4f0f936c8ef2e79a"
+    },
+    "quality.json": {
+      "path": "quality.json",
+      "sha256": "867131cf1f3c80a9ce8921491e84feafe9e48c36741e6937da4e3eaa37376c28"
+    }
+  },
+  "quality_checks": {
+    "passed": true
+  }
+}

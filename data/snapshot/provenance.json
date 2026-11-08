@@ -1,0 +1,64 @@
+[
+  {
+    "source_file": "bedrock_foundation_models.csv",
+    "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/index.csv",
+    "sha256": "d8aa334d1d474a596fb960d301ac963654cb1cc43fbae6ae179cb81b740c4ff7",
+    "byte_size": 3254027,
+    "download_timestamp": "2026-10-20T19:20:23.214009+00:00",
+    "metadata_rows": [
+      [
+        "FormatVersion",
+        "v1.0"
+      ],
+      [
+        "Disclaimer",
+        "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/"
+      ],
+      [
+        "Publication Date",
+        "2026-10-12T08:40:08Z"
+      ],
+      [
+        "Version",
+        "20261012084008"
+      ],
+      [
+        "OfferCode",
+        "AmazonBedrockFoundationModels"
+      ]
+    ],
+    "offer_version": "20261012084008",
+    "publication_date": "2026-10-12T08:40:08Z"
+  },
+  {
+    "source_file": "bedrock_service_all.csv",
+    "source_url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/index.csv",
+    "sha256": "cd9e82b13ae7e9ec19f9597eb9fcb05303df7e38b25b1c98364b5ec2a4d07616",
+    "byte_size": 6127209,
+    "download_timestamp": "2026-10-20T19:20:23.528249+00:00",
+    "metadata_rows": [
+      [
+        "FormatVersion",
+        "v1.0"
+      ],
+      [
+        "Disclaimer",
+        "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/"
+      ],
+      [
+        "Publication Date",
+        "2026-10-16T21:08:06Z"
+      ],
+      [
+        "Version",
+        "20261016210806"
+      ],
+      [
+        "OfferCode",
+        "AmazonBedrock"
+      ]
+    ],
+    "offer_version": "20261016210806",
+    "publication_date": "2026-10-16T21:08:06Z"
+  }
+]

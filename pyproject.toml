@@ -1,0 +1,10 @@
+[project]
+name = "bedrock-cost-shortlist"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = ["pandas", "duckdb", "pyarrow", "streamlit", "plotly"]
+[dependency-groups]
+dev = ["pytest", "psutil"]
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

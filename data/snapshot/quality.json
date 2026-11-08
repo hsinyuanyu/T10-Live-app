@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "sources": {
+    "bedrock_foundation_models.csv": {
+      "raw": 7026,
+      "clean": 7026,
+      "quarantine": 0,
+      "exact_duplicate_removed": 0,
+      "reasons": {
+        "unrecognized_dimension": 4573,
+        "unsupported_unit": 1431,
+        "commitment": 1242
+      },
+      "columns": [
+        "SKU",
+        "OfferTermCode",
+        "RateCode",
+        "TermType",
+        "PriceDescription",
+        "EffectiveDate",
+        "StartingRange",
+        "EndingRange",
+        "Unit",
+        "PricePerUnit",
+        "Currency",
+        "Product Family",
+        "Location",
+        "Location Type",
+        "usageType",
+        "operation",
+        "Feature",
+        "Inference Type",
+        "Model",
+        "Provider",
+        "Region Code",
+        "serviceName"
+      ]
+    },
+    "bedrock_service_all.csv": {
+      "raw": 13315,
+      "clean": 13315,
+      "quarantine": 0,
+      "exact_duplicate_removed": 0,
+      "reasons": {
+        "unrecognized_dimension": 4124,
+        "unsupported_unit": 835,
+        "missing_model": 854,
+        "commitment": 122
+      },
+      "columns": [
+        "SKU",
+        "OfferTermCode",
+        "RateCode",
+        "TermType",
+        "PriceDescription",
+        "EffectiveDate",
+        "StartingRange",
+        "EndingRange",
+        "Unit",
+        "PricePerUnit",
+        "Currency",
+        "Product Family",
+        "serviceCode",
+        "Location",
+        "Location Type",
+        "usageType",
+        "operation",
+        "Architecture",
+        "Architecture Name",
+        "Batch",
+        "Custom Model Unit Version",
+        "Feature",
+        "Feature Type",
+        "Inference Type",
+        "Modality",
+        "Model",
+        "Model Unit",
+        "Policy Type",
+        "Provider",
+        "Region Code",
+        "service_tier",
+        "serviceName",
+        "Titan Model",
+        "Titan Model Unit",
+        "Token Type"
+      ]
+    }
+  },
+  "status_counts": {
+    "retained_noncomparable": 8801,
+    "comparison_eligible": 11540
+  }
+}
